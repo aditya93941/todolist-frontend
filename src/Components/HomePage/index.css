@@ -1,0 +1,65 @@
+.home-page {
+    padding: 20px;
+    background-color: rgb(121, 205, 253);
+    min-height: 100vh;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+
+.task-card button {
+    margin-left: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.profileBtn{
+    background-color: skyblue;
+    margin-right: 10px;
+    width: 100px;
+}
+
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(71, 121, 137);
+    margin: -20px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.homeHeadong{
+    color: white;
+}
+.add{
+    width: 100px;
+}
+.logoutBtn{
+    background-color: rgb(255, 0, 0);
+    width: 100px;
+    margin-left: 10px;
+}
+.logoutBtn:hover{
+    background-color: rgb(173, 103, 103);
+}
+.emptyTaskText{
+    text-align: center;
+}
+.taskContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

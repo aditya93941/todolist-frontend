@@ -1,0 +1,9 @@
+form button{
+    width: 60px;
+    margin-right: 10px;
+}
+
+form textarea{
+    width: 50vw;
+    height: 10vh;
+}

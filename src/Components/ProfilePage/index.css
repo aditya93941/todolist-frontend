@@ -1,0 +1,17 @@
+.backBtn{
+    width: 60px;
+    margin: 10px;
+}
+.profileCard{
+    margin: 20px;
+}
+.profileMainCArd{
+    background-color: rgb(131, 202, 167);
+    margin: 0px;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.profileInput{
+    width: 200px;
+    margin: 10px;
+}
