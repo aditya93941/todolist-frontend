@@ -1,11 +1,11 @@
 import React from 'react';
-import './index.css'
+import './index.css';
 
 class TaskForm extends React.Component {
-        state = {
-            title: this.props.task ? this.props.task.title : '',
-            description: this.props.task ? this.props.task.description : ''
-        };
+    state = {
+        title: this.props.task ? this.props.task.title : '',
+        description: this.props.task ? this.props.task.description : ''
+    };
 
     handleSubmit = (e) => {
         e.preventDefault();
@@ -21,24 +21,26 @@ class TaskForm extends React.Component {
         const { title, description } = this.state;
 
         return (
-            <form onSubmit={this.handleSubmit}>
+            <form className='taskForm' onSubmit={this.handleSubmit}>
                 <input
                     type="text"
                     name="title"
                     value={title}
                     onChange={this.handleChange}
-                    placeholder="Title"
+                    placeholder="Task Title"
                     required
+                    className='taskInput'
                 />
                 <textarea
                     name="description"
                     value={description}
                     onChange={this.handleChange}
-                    placeholder="Description"
+                    placeholder="Task Description"
+                    className='taskTextarea'
                 />
-                <div>
-                    <button type="submit">Save</button>
-                    <button type="button" onClick={this.props.onCancel}>Cancel</button>
+                <div className='buttonGroup'>
+                    <button type="submit" className='saveButton'>Save</button>
+                    <button type="button" onClick={this.props.onCancel} className='cancelButton'>Cancel</button>
                 </div>
             </form>
         );
