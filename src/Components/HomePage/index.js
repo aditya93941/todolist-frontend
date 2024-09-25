@@ -129,7 +129,7 @@ class HomePage extends React.Component {
                <nav className='nav-bar'>
                     <h1 className='homeHeadong'>Task Manager</h1>
                     <div className='logoutCard'>
-                        <button onClick={this.onClickProfile} className='profileBtn'>Go to Prfile</button>
+                        <button onClick={this.onClickProfile} className='profileBtn'>Go to Profile</button>
                         <button className='add' onClick={this.handleAddTask}>Add Task</button>
                         <button onClick={this.onLogout} className='logoutBtn'>logout </button>
                     </div>

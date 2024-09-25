@@ -1,6 +1,6 @@
 .home-page {
     padding: 20px;
-    background-color: rgb(240, 95, 38);
+    background-color: rgb(255, 209, 190);
     min-height: 100vh;
     overflow: hidden;
     max-height: 100%;
@@ -34,7 +34,7 @@ form input, form textarea {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(71, 121, 137);
+    background-color: rgb(249, 141, 46);
     margin: -20px;
     padding: 10px;
     margin-bottom: 20px;
