@@ -24,11 +24,13 @@ form input, form textarea {
 }
 
 .profileBtn{
-    background-color: skyblue;
+    background-color: rgb(6, 7, 7);
     margin-right: 10px;
     width: 100px;
 }
-
+.profileBtn:hover{
+    background-color: rgb(7, 6, 6);
+}
 
 .nav-bar{
     display: flex;
@@ -48,12 +50,12 @@ form input, form textarea {
     width: 100px;
 }
 .logoutBtn{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(6, 7, 7);
     width: 100px;
     margin-left: 10px;
 }
 .logoutBtn:hover{
-    background-color: rgb(173, 103, 103);
+    background-color: rgb(7, 6, 6);
 }
 .emptyTaskText{
     text-align: center;
