@@ -5,17 +5,12 @@
 .task-card{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    width: 30vw;
-    flex-wrap: wrap;
+    align-items: center;
+    width: 22vw;
     border: 1px solid black;
     padding: 10px;
-    margin: 10px 0;
     border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 10px;
+    margin: 10px 10px;
 }
 ::-webkit-scrollbar {
     width: 0px;
@@ -28,6 +23,9 @@
     align-items: center;
     justify-content: center;
     width: 120px;
+}
+input {
+    width: 20%;
 }
 .status.input{
     margin-left: 20px;

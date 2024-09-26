@@ -70,7 +70,7 @@ class Signup extends React.Component {
                         placeholder="Password"
                         required
                     />
-                    <button type="submit">Signup</button>
+                    <button type="submit" className='signup-button'>Signup</button>
                 </form>
                 <p>
                     Already have an account? <a href="/login">Login here</a>

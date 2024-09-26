@@ -1,11 +1,20 @@
+body {
+    height: 100vh;
+    background-color: rgb(73, 72, 72);
+}
+#root {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .login-container {
-    max-width: 400px;
-    margin: auto;
+    width: 400px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    background-color: #070606;
+    background-color: #f9f9f9;
 }
 
 h2 {
@@ -44,5 +53,13 @@ button:hover {
 
 .error {
     color: red;
+    text-align: center;
+}
+
+.login-button {
+    width: 100%;
+}
+
+p {
     text-align: center;
 }

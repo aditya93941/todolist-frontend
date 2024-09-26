@@ -13,7 +13,7 @@ class TaskCard extends React.Component {
                     <label htmlFor='checkbox'>
                         Completed
                     </label>
-                    <input
+                    <input className='checkbox'
                         type="checkbox"
                         checked={task.completed}
                         onChange={() => onToggleComplete(task.id)}
