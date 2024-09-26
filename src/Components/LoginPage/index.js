@@ -55,11 +55,13 @@ class Login extends React.Component {
                             value={this.state.email}
                             onChange={this.handleInputChange}
                             required
+                            className='inputLogin'
                         />
                     </div>
                     <div>
                         <label>Password:</label>
                         <input
+                            className='inputLogin'
                             type="password"
                             name="password"
                             value={this.state.password}

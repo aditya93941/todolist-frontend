@@ -47,6 +47,7 @@ class Signup extends React.Component {
                 {message && <p className="message">{message}</p>}
                 <form onSubmit={this.handleSubmit}>
                     <input
+                    className='inputLogin'
                         type="text"
                         name="name"
                         value={name}
@@ -55,6 +56,7 @@ class Signup extends React.Component {
                         required
                     />
                     <input
+                    className='inputLogin'
                         type="email"
                         name="email"
                         value={email}
@@ -63,6 +65,7 @@ class Signup extends React.Component {
                         required
                     />
                     <input
+                        className='inputLogin'
                         type="password"
                         name="password"
                         value={password}

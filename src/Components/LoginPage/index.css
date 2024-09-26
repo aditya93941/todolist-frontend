@@ -31,10 +31,12 @@ label {
 }
 
 input {
-    width: 95%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+.inputLogin{
+    width: 90% ;
 }
 
 button {
