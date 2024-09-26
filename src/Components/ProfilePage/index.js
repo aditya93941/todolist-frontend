@@ -103,16 +103,20 @@ class ProfilePage extends React.Component {
                             onChange={(e) => this.setState({ password: e.target.value })}
                         />
                         <br/>
-                        <button className='backBtn' onClick={this.handleUpdate}>Save</button>
-                        <button className='backBtn' onClick={this.handleCancel}>Cancel</button>
+                        <div className='profileBtns'>
+                            <button className='backBtn' onClick={this.handleUpdate}>Save</button>
+                            <button className='backBtn' onClick={this.handleCancel}>Cancel</button>
+                        </div>
                     </div>
                 ) : (
                     <div className='profileCard'>
                         <p><strong>Name:</strong> {name}</p>
                         <p><strong>Email:</strong> {email}</p>
                         <p><strong>Password:</strong> ******** (hidden for security)</p>
+                        <div className='profileBtns'>
                         <button className='backBtn' onClick={this.handleEdit}>Edit</button>
                         <button onClick={this.inClickBackInProfile} className='backBtn'>back</button>
+                        </div>
                     </div>
                 )}
                 {error && <p>{error}</p>}
